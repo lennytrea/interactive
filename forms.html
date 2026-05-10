@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact the Ranch</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">The Ranch</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <h1>Contact the Ranch</h1>
+    <p>drop us a message</p>
+
+    <form>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="John Marston" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="name@example.com" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">What are you interested in?</label>
+            <input list="subjectOptions" id="subject" placeholder="Select an activity...">
+            <datalist id="subjectOptions">
+                <option value="Horseback Riding">
+                <option value="Cabin Rentals">
+                <option value="Group Events">
+                <option value="Cattle Herding Experience">
+            </datalist>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="5" placeholder="Tell us how we can help..."></textarea>
+        </div>
+
+        <button type="submit">Send Message to the Ranch</button>
+        <div class="contact-links">
+    <h3>Follow the Ranch</h3>
+    <div class="contact-links">
+    <h3>Catch us on the Trail</h3>
+    <div class="link-grid">
+        <a href="#" class="link-item">@DustyBootsRanch</a><br><br>
+        
+        <a href="#" class="link-item">1-800-RANCH-LIFE</a><br><br>
+        
+        <a href="#" class="link-item">howdy@lonestar-interactive.com</a><br><br>
+        
+        <a href="#" class="link-item">CactusDesign_Studio</a><br><br?>
+    </div>
+</div>
+</div>
+    </form>
+</main>
+
+</body>
+</html>
