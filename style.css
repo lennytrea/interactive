@@ -54,3 +54,34 @@ input[type="range"] {
     background: transparent;
     cursor: pointer;
 }
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: auto; 
+    margin-bottom: 0;
+    accent-color: #4e9a84;
+}
+.form-footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-footer a {
+    font-size: 0.8rem;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.login-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1a2e25;
+    border-radius: 10px;
+}

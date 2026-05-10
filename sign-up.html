@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<nav>
+    <a href="index.html">Home</a>
+     <a href="forms.html">Contact</a>
+    <a href="blog.html">Ranch Stories</a>
+    <a href="sign-up.html">Join us</a>
+    <a href="sign-in.html">Login</a>
+</nav>
+<body>
+    <main>
+    <h1>Join the Ranch Crew</h1>
+    <p>Create an account to start booking your trail rides.</p>
+
+    <form class="auth-form">
+        <div class="form-group">
+            <label for="regName">Full Name</label>
+            <input type="text" id="regName" placeholder="Arthur Morgan" required>
+        </div>
+
+        <div class="form-group">
+            <label for="regEmail">Email Address</label>
+            <input type="email" id="regEmail" placeholder="cowboy@ranch.com" required>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="regPass">Password</label>
+                <input type="password" id="regPass" placeholder="••••••••" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPass">Confirm Password</label>
+                <input type="password" id="confirmPass" placeholder="••••••••" required>
+            </div>
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the Ranch Code of Conduct & Terms</label>
+        </div>
+
+        <button type="submit">Create Account</button>
+    </form>
+</main>
+</body>
+</html>
