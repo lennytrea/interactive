@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <h1>New Ranch Story</h1>
+    <p>Share your latest adventure from the trails.</p>
+
+    <form class="blog-form">
+        <div class="form-group">
+            <label for="postTitle">Story Title</label>
+            <input type="text" id="postTitle" placeholder="e.g. The Midnight Trail Ride" required>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category">
+                    <option value="trails">Trail Reports</option>
+                    <option value="wildlife">Wildlife Sightings</option>
+                    <option value="food">Chuckwagon Recipes</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="postDate">Date of Adventure</label>
+                <input type="date" id="postDate" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="content">Write your story</label>
+            <textarea id="content" rows="8" placeholder="Tell us what happened..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="rating">Ranch Rating (1-10)</label>
+            <input type="range" id="rating" min="1" max="10" step="1">
+        </div>
+
+        <div class="form-group">
+            <label for="file">Upload a Photo</label>
+            <input type="file" id="file" accept="image/*">
+        </div>
+        <div class="stories-from-home">
+            <h2>Stories from the Ranch</h2>
+            <p>A trip to a ranch offers a unique and immersive family vacation experience that combines adventure,
+             relaxation, and education. Families can enjoy horseback riding through scenic landscapes,
+              which provides a fun way for members of all ages to connect with nature. This outdoor 
+              activity not only fosters bonding but also introduces children to traditional Western skills 
+              and lifestyles. Additionally, many dude ranches offer other activities such as fishing, hiking,
+               and campfire storytelling, making each day filled with new discoveries and memorable moments..........</p>
+        </div>
+        <button type="submit">Publish to the Ranch Blog</button>
+    </form>
+</main>
+</body>
+</html>

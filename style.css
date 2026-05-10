@@ -49,3 +49,8 @@ button:hover {
     background-color: #ffffff;
     color: #0b1a13;
 }
+input[type="range"] {
+    accent-color: #4e9a84; 
+    background: transparent;
+    cursor: pointer;
+}
